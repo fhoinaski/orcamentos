@@ -1,3 +1,4 @@
+'/src/app/page.js'
 export default function Home() {
   return (
     <div className="flex justify-center items-center h-screen w-screen bg-gray-100">

@@ -1,0 +1,103 @@
+{
+  
+    "carlos-7-12-2024": {
+        "cliente": {
+            "nome": "Sr. Carlos"
+        },
+        "data": "07 de Dezembro de 2024",
+        "servicos": [
+            {
+                "numero": 1,
+                "titulo": "Limpeza das Extremas do Terreno, Recuperação de Cerca e Instalação de Tela",
+                "detalhes": {
+                    "descricao": [
+                        "Frente: Alinhamento dos mourões, colocação de arame, limpeza e instalação da tela.",
+                        "Laterais: Limpeza (roçada) do mato em aproximadamente 2 a 3m de faixa ao longo de toda a extrema, corte de árvores de médio ou grande porte, se necessário.",
+                        "Fundo: Correção dos mourões, esticamento de arame e reinstalação da cerca removida, demarcando o terreno."
+                    ],
+                    "valorTotal": 2990.00,
+                    "prazo": "3 a 4 dias"
+                }
+            },
+            {
+                "numero": 2,
+                "titulo": "Contrapiso e Pisos em Áreas Diversas (Calçadas e Varanda)",
+                "detalhes": {
+                    "descricao": [
+                        "Calçada (0,78m x 11m): Refazer contrapiso e colocação de piso.",
+                        "Calçada (0,45m x 5m): Refazer contrapiso e colocação de piso.",
+                        "Calçada (0,50m x 7m): Refazer contrapiso e colocação de piso.",
+                        "Calçada (12m x 1,50m): Refazer contrapiso e colocação de piso.",
+                        "Varanda: Colocação de piso."
+                    ],
+                    "maoDeObra": 5524.50,
+                    "materiais": 329.00,
+                    "valorTotal": 5853.50,
+                    "prazo": "5 a 7 dias"
+                }
+            },
+            {
+                "numero": 3,
+                "titulo": "Contrapiso na Garagem (3m x 12m)",
+                "detalhes": {
+                    "descricao": [
+                        "Execução de contrapiso para nivelamento da área da garagem (aprox. 36m²)."
+                    ],
+                    "maoDeObra": 2300.00,
+                    "materiais": 950.00,
+                    "valorTotal": 3250.00,
+                    "prazo": "2 a 3 dias"
+                }
+            },
+            {
+                "numero": 4,
+                "titulo": "Revestimento no Muro",
+                "detalhes": {
+                    "descricao": [
+                        "Preparação e revestimento do muro lateral com pedra ou piso (a definir)."
+                    ],
+                    "valorTotal": 1450.00,
+                    "prazo": "2 a 3 dias"
+                }
+            },
+            {
+                "numero": 5,
+                "titulo": "Pintura Externa",
+                "detalhes": {
+                    "descricao": [
+                        "Pintura das áreas externas rebocadas da casa."
+                    ],
+                    "valorTotal": 2200.00,
+                    "prazo": "3 a 4 dias"
+                }
+            }
+        ],
+        "valorTotalOrcamento": 15743.50,
+        "formasPagamento": {
+            "parcelado": {
+                "parcelas": 12,
+                "valorParcela": 1311.96
+            },
+            "aVista": {
+                "valor": 14956.33,
+                "desconto": 0.05
+            }
+        },
+        "validadeOrcamento": 30,
+        "informacoesAdicionais": {
+            "garantia": "6 meses",
+            "observacoes": [
+                "Os valores incluem mão de obra e materiais descritos acima.",
+                "Os prazos podem variar de acordo com condições climáticas e disponibilidade de materiais.",
+                "O tipo de revestimento do muro (pedra ou piso) será definido pelo cliente antes do início.",
+                "Condições de pagamento podem ser negociadas conforme o andamento dos trabalhos."
+            ]
+        },
+        "contato": {
+            "nome": "Fernando Hoinaski",
+            "telefone": "+55 48 99627-3552",
+            "horarioAtendimento": "segunda a sexta, das 8h às 18h"
+        }
+    
+}
+}

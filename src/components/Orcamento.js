@@ -110,7 +110,9 @@ const Orcamento = ({
           variants={BudgetAnimation.item}
         >
           <h2 className="text-md font-bold mb-6 text-secondary flex items-center ">
-            <CheckCircle2 className="mr-3 text-green-600" />
+            <div className=' mr-2'>
+              <CheckCircle2 className="mr-3 w-6 h-6 text-green-600" />
+            </div>
             {servico.titulo}
           </h2>
           {(Array.isArray(servico.detalhes) ? servico.detalhes : [servico.detalhes])

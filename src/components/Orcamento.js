@@ -86,7 +86,7 @@ const Orcamento = ({
         <div className="flex items-center space-x-4">
           <User className="text-blue-600 w-10 h-10" />
           <div>
-            <h1 className="text-2xl font-bold text-blue-700">
+            <h1 className="text-xl font-bold text-blue-700">
               Orçamento para {cliente.nome}
             </h1>
             <p className="text-gray-600 flex items-center">
@@ -106,10 +106,10 @@ const Orcamento = ({
       {servicos.map((servico, index) => (
         <motion.section 
           key={index} 
-          className="bg-gray-50 p-6 rounded-xl"
+          className="bg-gray-50 p-2 rounded-xl"
           variants={BudgetAnimation.item}
         >
-          <h2 className="text-xl font-bold mb-4 text-blue-700 flex items-center">
+          <h2 className="text-md font-bold mb-6 text-secondary flex items-center ">
             <CheckCircle2 className="mr-3 text-green-600" />
             {servico.titulo}
           </h2>
@@ -117,17 +117,15 @@ const Orcamento = ({
             .map((detalhe, detIndex) => (
             <div 
               key={detIndex} 
-              className="bg-white p-4 rounded-lg shadow-sm mb-4"
+              className="bg-white p-2 rounded-lg shadow-sm mb-4"
             >
-              <h3 className="font-semibold text-lg mb-2 text-blue-700">
-                {detalhe.titulo || servico.titulo}
-              </h3>
               
-              <ul className="space-y-2 mb-4 text-gray-700">
+              
+              <ul className="space-y-2 mb-4 text-gray-700 text-xs  ">
                 {(detalhe.descricao || []).map((desc, descIndex) => (
                   <li 
                     key={descIndex} 
-                    className="flex items-center"
+                    className="flex items-center my-2"
                   >
                     <div>
                       <Info className="mr-2 w-3 h-3 text-blue-500" />
@@ -162,16 +160,16 @@ const Orcamento = ({
       {/* Rodapé de Contato */}
       {contato && (
         <motion.footer 
-          className="text-center p-4 bg-gray-100 rounded-b-2xl"
+          className="text-center p-4 bg-gray-100 rounded-b-xl"
           variants={BudgetAnimation.item}
         >
-          <p className="text-gray-600">
+          <p className="text-gray-600 text-xs">
             Dúvidas? Entre em contato com {contato.nome}
           </p>
           <div className="flex justify-center space-x-4 mt-2">
             <a 
               href={`tel:${contato.telefone}`} 
-              className="text-blue-600 hover:text-blue-700"
+              className="text-blue-600 hover:text-blue-700 text-xs"
             >
               📞 {contato.telefone}
             </a>
@@ -179,7 +177,7 @@ const Orcamento = ({
               href={`https://wa.me/${contato.whatsapp}`} 
               target="_blank" 
               rel="noopener noreferrer"
-              className="text-green-600 hover:text-green-700"
+              className="text-green-600 hover:text-green-700 text-xs"
             >
               💬 WhatsApp
             </a>

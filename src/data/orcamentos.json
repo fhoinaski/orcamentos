@@ -28,11 +28,12 @@
                         "Calçada (0,45m x 5m): Refazer contrapiso e colocação de piso.",
                         "Calçada (0,50m x 7m): Refazer contrapiso e colocação de piso.",
                         "Calçada (12m x 1,50m): Refazer contrapiso e colocação de piso.",
-                        "Varanda: Colocação de piso."
+                        "Varanda: Colocação de piso.",
+                        "Rejunto de todas as áreas."
                     ],
-                    "maoDeObra": 5524.50,
-                    "materiais": 329.00,
-                    "valorTotal": 5853.50,
+                    "maoDeObra": 5500.00,
+                    "materiais": 350.00,
+                    "valorTotal": 5850.00,
                     "prazo": "5 a 7 dias"
                 }
             },
@@ -67,7 +68,7 @@
                     "descricao": [
                         "Pintura das áreas externas rebocadas da casa."
                     ],
-                    "valorTotal": 2200.00,
+                    "valorTotal": 2350.00,
                     "prazo": "3 a 4 dias"
                 }
             }
